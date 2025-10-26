@@ -1,0 +1,26 @@
+button {
+    color: #fff;
+    border: 1px #00bcd4;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: rgba(0, 188, 212, 0.15);
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: rgba(0, 188, 212, 0.25);
+    transform: scale(0.97);
+}
+
+.controls [role="tablist"] {
+    display: flex;
+    gap: 6px;
+}
+
