@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Log Out"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "registerButton": "Sign Up",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginTitle": "Welcome Back",
+    "registerTitle": "Create Account",
+    "usernameRequired": "Username is required",
+    "passwordRequired": "Password is required",
+    "loginError": "Invalid username or password",
+    "registerStub": "Registration is not available in demo mode. Please use the login page.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome, {{name}}!",
+    "totalProducts": "Total Products",
+    "quickActions": "Quick Actions",
+    "viewProducts": "View Products",
+    "viewProfile": "View Profile",
+    "openSettings": "Open Settings"
+  },
+  "products": {
+    "title": "Products",
+    "search": "Search products...",
+    "price": "Price",
+    "rating": "Rating",
+    "category": "Category",
+    "brand": "Brand",
+    "stock": "In Stock",
+    "description": "Description",
+    "noProducts": "No products found",
+    "loading": "Loading products...",
+    "error": "Failed to load products",
+    "backToList": "Back to Products",
+    "discount": "Discount",
+    "details": "Product Details"
+  },
+  "profile": {
+    "title": "Profile",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "username": "Username",
+    "logoutButton": "Log Out"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "pageSize": "Products per Page",
+    "russian": "Russian",
+    "english": "English",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "notFound": "Page Not Found",
+    "notFoundMessage": "The page you are looking for does not exist.",
+    "goHome": "Go to Home",
+    "errorBoundaryTitle": "An error occurred",
+    "errorBoundaryMessage": "Something went wrong. Please try reloading the page.",
+    "reload": "Reload Page",
+    "of": "of",
+    "page": "Page"
+  }
+}
