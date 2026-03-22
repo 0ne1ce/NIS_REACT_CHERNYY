@@ -1,7 +1,7 @@
 import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useAppDispatch, useAppSelector } from '../../../shared/lib/hooks';
-import { setLanguage, setTheme, setPageSize } from '../model/settingsSlice';
+import { setLanguage, setTheme, setPageSize, Language, Theme } from '../model/settingsSlice';
 import { selectLanguage, selectTheme, selectPageSize } from '../model/selectors';
 
 export const SettingsForm = memo(function SettingsForm() {
@@ -13,14 +13,14 @@ export const SettingsForm = memo(function SettingsForm() {
 
   const handleLanguageChange = useCallback(
     (e: React.ChangeEvent<HTMLSelectElement>) => {
-      dispatch(setLanguage(e.target.value as 'ru' | 'en'));
+      dispatch(setLanguage(e.target.value as Language));
     },
     [dispatch]
   );
 
   const handleThemeChange = useCallback(
     (e: React.ChangeEvent<HTMLSelectElement>) => {
-      dispatch(setTheme(e.target.value as 'light' | 'dark'));
+      dispatch(setTheme(e.target.value as Theme));
     },
     [dispatch]
   );
