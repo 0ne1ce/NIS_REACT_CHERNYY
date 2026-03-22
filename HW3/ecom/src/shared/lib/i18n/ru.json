@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "dashboard": "Главная",
+    "products": "Товары",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "logout": "Выход"
+  },
+  "auth": {
+    "login": "Вход",
+    "register": "Регистрация",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "loginButton": "Войти",
+    "registerButton": "Зарегистрироваться",
+    "noAccount": "Нет аккаунта?",
+    "haveAccount": "Уже есть аккаунт?",
+    "loginTitle": "Добро пожаловать",
+    "registerTitle": "Создание аккаунта",
+    "usernameRequired": "Введите имя пользователя",
+    "passwordRequired": "Введите пароль",
+    "loginError": "Неверное имя пользователя или пароль",
+    "registerStub": "Регистрация недоступна в демо-режиме. Пожалуйста, используйте страницу входа.",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "email": "Электронная почта"
+  },
+  "dashboard": {
+    "title": "Главная",
+    "welcome": "Добро пожаловать, {{name}}!",
+    "totalProducts": "Всего товаров",
+    "quickActions": "Быстрые действия",
+    "viewProducts": "Просмотр товаров",
+    "viewProfile": "Просмотр профиля",
+    "openSettings": "Открыть настройки"
+  },
+  "products": {
+    "title": "Товары",
+    "search": "Поиск товаров...",
+    "price": "Цена",
+    "rating": "Рейтинг",
+    "category": "Категория",
+    "brand": "Бренд",
+    "stock": "В наличии",
+    "description": "Описание",
+    "noProducts": "Товары не найдены",
+    "loading": "Загрузка товаров...",
+    "error": "Не удалось загрузить товары",
+    "backToList": "Назад к товарам",
+    "discount": "Скидка",
+    "details": "Подробности о товаре"
+  },
+  "profile": {
+    "title": "Профиль",
+    "name": "Имя",
+    "email": "Электронная почта",
+    "phone": "Телефон",
+    "username": "Имя пользователя",
+    "logoutButton": "Выйти"
+  },
+  "settings": {
+    "title": "Настройки",
+    "language": "Язык",
+    "theme": "Тема",
+    "pageSize": "Товаров на странице",
+    "russian": "Русский",
+    "english": "Английский",
+    "light": "Светлая",
+    "dark": "Тёмная"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Что-то пошло не так",
+    "retry": "Повторить",
+    "notFound": "Страница не найдена",
+    "notFoundMessage": "Страница, которую вы ищете, не существует.",
+    "goHome": "На главную",
+    "errorBoundaryTitle": "Произошла ошибка",
+    "errorBoundaryMessage": "Что-то пошло не так. Попробуйте перезагрузить страницу.",
+    "reload": "Перезагрузить",
+    "of": "из",
+    "page": "Страница"
+  }
+}
